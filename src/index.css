@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
 
---root {
+:root {
   --main-color: rgb(123, 248, 248);
+  --frst-color: rgb(17, 255, 255);
   --scnd-color: black;
   --white: white;
   --bg-color: rgb(60, 78, 80);

@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <h1>Cryprto coins</h1>
+        <h1>
+          <span>Cryprto</span> coins
+        </h1>
         <main>
           <NavLink to="/" activeClassName="active">
             Home
@@ -15,6 +17,9 @@ const Header = () => {
           </NavLink>
           <NavLink to="/contact" activeClassName="active">
             Contact
+          </NavLink>
+          <NavLink to="/products" activeClassName="active">
+            Products
           </NavLink>
         </main>
       </nav>
