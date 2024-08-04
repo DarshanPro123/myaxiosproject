@@ -4,10 +4,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
-import header from "./styles/header.css";
-import home from "./styles/home.css";
-import about from "./styles/about.css";
-import contact from "./styles/contact.css";
+import "./styles/header.css";
+import "./styles/home.css";
+import "./styles/about.css";
+import "./styles/contact.css";
 
 function App() {
   return (
