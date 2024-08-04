@@ -1,0 +1,41 @@
+.coins {
+    display: flex;
+    justify-content: center;
+}
+
+.coin-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* Adjust the gap between cards as needed */
+    max-width: 1200px;
+    /* Adjust the max-width as needed */
+}
+
+.coin-card {
+    flex: 1 1 calc(25% - 16px);
+    /* 4 cards per row with gap */
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.coin-card h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--main-color);
+}
+
+.coin-card h3 {
+    text-transform: uppercase;
+    color: var(--scnd-color);
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.coin-card img {
+    max-width: 60%;
+    height: auto;
+}

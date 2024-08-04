@@ -1,15 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Products from "./Products";
+import axios from "axios";
 
 const Home = () => {
-  const arra = [1, 2, 3, 4, 5, 6, 7];
   return (
     <div>
       <h1>Home</h1>
-      <ul>
-        {arra.map((index, value) => {
-          return <li key={index}>{value}</li>;
-        })}
-      </ul>
+      <Products />
     </div>
   );
 };
