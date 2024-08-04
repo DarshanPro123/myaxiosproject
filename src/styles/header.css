@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    height: 16vh;
+    background-color: #333;
+    color: white;
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(123, 248, 248);
+    text-transform: uppercase;
+    font-family: 'Sansrif', cursive;
+
+}
+
+nav main {
+    border: 1px solid #000;
+    width: 40%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10;
+}
+
+nav main a {
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
